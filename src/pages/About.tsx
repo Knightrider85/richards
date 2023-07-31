@@ -1,5 +1,11 @@
+import { Employe } from "../components/Employe";
+
 export function About() {
     return (
-        <h1>om oss</h1>
+        <>
+        <h2>Kul att du vill veta mer om oss</h2>
+        <Employe />
+        </>
+        
     )
 }

@@ -1,12 +1,14 @@
 export function Employe() {
   const employeContainerStyle = {
     width: "100%",
-    backgroundColor: "#ff9100", // Replace with your desired background color
+    // backgroundColor: "#ff9100", // Replace with your desired background color
     display: "flex",
     justifyContent: "space-around", // Center employee cards with space around them
     alignItems: "flex-start", // Align items at the top to keep profile pictures at the top
     color: "#333", // Set your desired text color
-    flexWrap: "wrap" as "wrap",  };
+    flexWrap: "wrap" as "wrap",
+    minHeight: "50vh",
+  };
 
   const employeCardStyle: React.CSSProperties = {
     width: "200px", // Set the width of each employee card
@@ -43,12 +45,12 @@ export function Employe() {
       <div style={employeCardStyle}>
         <div style={profilePictureStyleRichard}></div>
         <h1 style={employeNameStyle}>Richard Johnsson</h1>
-        <p>Richard startade firman år 2015 och har sedan dess haft </p>
+        <p>Richard startade firman år 2015</p>
       </div>
       <div style={employeCardStyle}>
         <div style={profilePictureStyleMongo}></div>
         <h1 style={employeNameStyle}>Alvin Slipsko</h1>
-        <p>Employee 2 information goes here</p>
+        <p>Alvin startade 2021 och är en viktig del av firman</p>
       </div>
     </div>
   );

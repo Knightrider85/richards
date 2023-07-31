@@ -1,5 +1,10 @@
+import { Footer } from "../components/Footer";
+
 export function Contact() {
     return (
-        <h1>kontakt</h1>
+        <>
+        <h4>Här finner du våra kontakt uppgifter</h4>
+        <Footer />
+        </>
     )
 }

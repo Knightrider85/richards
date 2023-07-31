@@ -2,8 +2,11 @@ import { Container, Nav, Navbar as NavbarBs } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 export function Navbar() {
+    const customTogglerStyle = {
+        color: "#ff9100", // Set the background color for the hamburger icon
+      };
   return (
-    <NavbarBs sticky='top' className="bg-white shadow-sm mb-3" expand="md">
+    <NavbarBs sticky='top' className="bg-white shadow-sm" expand="md">
       <Container>
         <NavbarBs.Brand href="/" className="me-auto">
           <img
@@ -15,7 +18,7 @@ export function Navbar() {
           />
         </NavbarBs.Brand>
 
-        <NavbarBs.Toggle aria-controls="navbar-nav" className="custom-toggler" />
+        <NavbarBs.Toggle aria-controls="navbar-nav" className="custom-toggler" style={customTogglerStyle}/>
 
         <NavbarBs.Collapse id="navbar-nav">
           <Nav className="ms-auto">
