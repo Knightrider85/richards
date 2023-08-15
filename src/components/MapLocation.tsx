@@ -2,7 +2,7 @@ export function MapLocation() {
   const mapStyle = {
     width: "100%",
     height: "50vh",
-    backgroundImage: "url('/public/map1.png')", // Set the path to your image
+    backgroundImage: "url('/map1.png')", // Set the path to your image
     backgroundSize: "cover", // Ensure the image covers the entire hero section
     backgroundPosition: "center", // Center the image horizontally and vertically
     display: "flex",

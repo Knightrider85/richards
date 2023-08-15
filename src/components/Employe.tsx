@@ -22,7 +22,7 @@ export function Employe() {
     height: "130px",
     borderRadius: "50%", // Make the profile picture appear as a rounded circle
     margin: "0 auto 1rem", // Add some margin at the bottom for spacing
-    backgroundImage: "url('/public/richard.png')",
+    backgroundImage: "url('/richard.png')",
     backgroundSize: "cover",
   };
 
@@ -31,7 +31,7 @@ export function Employe() {
     height: "130px",
     borderRadius: "50%", // Make the profile picture appear as a rounded circle
     margin: "0 auto 1rem", // Add some margin at the bottom for spacing
-    backgroundImage: "url('/public/mongo.png')",
+    backgroundImage: "url('/mongo.png')",
     backgroundSize: "cover",
   };
 
