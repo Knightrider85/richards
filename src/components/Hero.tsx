@@ -2,7 +2,7 @@ export function Hero() {
   const heroStyle = {
     width: "100%",
     height: "50vh",
-    backgroundImage: "url('/public/hero.png')", // Set the path to your image
+    backgroundImage: "url('/hero.png')", // Set the path to your image
     backgroundSize: "cover", // Ensure the image covers the entire hero section
     backgroundPosition: "center", // Center the image horizontally and vertically
     display: "flex",
